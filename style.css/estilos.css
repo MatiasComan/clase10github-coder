@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato",serif;
+}
+/*index*/
+h1{
+    color: aqua;
+    text-align: center;
+}
+ul span {
+    background-color: rgb(207, 8, 8);
+    color: white;
+    width: 120px;
+    height: 20px;
+    margin-left: 5px;
+    padding: 2px 10px;
+    text-align: center;
+}
+.menu-flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+article p{
+    color: blue;
+}
+.borde-verde{
+    border: solid 1px rgb(90, 128, 0);
+}
+.borde-azul{
+    border: solid 1px blue ;
+    
+}
+#uno{
+    background-color: rgb(4, 38, 100);
+}
+@font-face {
+    font-family:"lato" ;
+    src: url("lato/Lato-Regular.ttf");
+}
+div{
+    width: 80%;
+    
+}
+body{
+    font-family:"lato";
+}
+
+ul{
+    list-style-type: none;
+}
+.texto-grande{
+    font-size: 40px;
+}
+.negrita{
+    font-weight: bold;
+}
+aside p{
+    color: blue;
+}
+.centrar{
+    text-align: center;
+}
+
+.interlineado{
+    line-height: 1.5 ;
+}
+.sinsubrayar{
+    text-decoration: none;
+    color: white;
+}
+.subrayar{
+    text-decoration: underline;
+}
+
+.fondo{
+    background-color: rgb(133, 230, 88);
+}
+.fondo-imagen{
+    background-image:url("../imagen/airbag\ 4.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 50vw;
+}
+
+.cajaUno{
+    width: 100%; /*ancho*/
+    height: 50vh;
+    background-color: rgb(0, 255, 213);
+    text-align: center;
+}
+
+/* MArgin*/
+.margen{
+    margin-top: 100px; /*arriba*/
+    margin-bottom: 10%; /*abajo*/
+    margin-left: 70px; /*izq*/
+    margin-right: 70px; /*der*/
+}
+
+.padding{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;}
+    h2{
+        text-align: center;
+    }
+
+    footer{
+        height: 20px;
+        text-align: center;
+    }
+
+    /*INTEGRANTES*/
+    #body2{
+        background-color: rgb(133, 230, 88);
+    }
+    ul h2{
+        text-align: left;
+    }
+    
+    .centrarTexto{
+        text-align: center;
+        
+        
+    }
+    main img{
+        height: 50vw;
+        width: 50vw;
+        margin-left: 25vw;
+        
+    }
+    /*GALERIA*/
+    #body3{
+        background-color: rgb(133, 230, 88) ;
+    }
+
+    span img{
+        height: 300px;
+        width: 300px;
+     
+    }
+    .padre-flex{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+
+    }
+    main span img{
+        height: 20vw;
+        width: 20vw;
+        margin-top: 1vw;
+        margin-left: 7vh;
+        margin-bottom:1vw ;
+    }
+    main div iframe{
+        height: 25vw;
+        width: 31.8vw;
+        margin-top: 1vw;
+        margin-left: 7vh;
+        margin-bottom:1vw ;
+        
+    }
+   
+    
+
+    /*HISTORIA*/
+    #body4{
+        background-color: rgb(133, 230, 88);
+    }
+    .margenHistoria{
+        margin-top: 5px;
+        margin-left: 20vw;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .bordeNegro{
+        border: solid 1px black;
+    }
+
+/*DISCOGRAFIA*/
+.discografiaFondo{
+    background-color: rgb(133, 230, 88);
+}
+
+header div{
+    
+    height: 60%;
+}
+
+/*CONTACTO*/
+
+#body6{
+    background-color: rgb(133, 230, 88);
+}
+
+main form span{
+    background-color: white;
+    color: black;
+}
